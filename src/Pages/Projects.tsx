@@ -1,7 +1,14 @@
+import Header from "../components/Header";
+
 function Projects() {
     return (
         <div>
-            This is Projects
+            <Header position="Projects"/>
+            <div>
+            </div>
+            <div className="selfDefinedBody">
+                This is Projects
+            </div>
         </div>
     );
 }

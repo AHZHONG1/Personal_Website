@@ -5,21 +5,18 @@ import Home from "./Pages/Home"
 import NewestUpdate from "./Pages/NewestUpdate"
 import AboutUs from "./Pages/AboutUs";
 import Projects from "./Pages/Projects";
-import ContactUs from "./Pages/ContactUs";
-import "./App.css"
+import Skills from "./Pages/Skills";
+import './Pages/All.css'
 
 function App() {
     return (
         <div className="OverAll">
             <HashRouter basename='/'>
-                <div>
-                    <Header />
-                </div>
                 <Routes>
                     <Route path='/NewestUpdate' element={<NewestUpdate />}></Route>
                     <Route path='/AboutUs' element={<AboutUs />}></Route>
                     <Route path='/Projects' element={<Projects />}></Route>
-                    <Route path='/ContactUs' element={<ContactUs />}></Route>
+                    <Route path='/Skills' element={<Skills />}></Route>
                     <Route path='/' element={<Home />}></Route>
                 </Routes>
             </HashRouter>

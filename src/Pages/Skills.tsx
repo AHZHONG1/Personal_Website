@@ -1,16 +1,16 @@
 import Header from "../components/Header";
 
-function NewestUpdate() {
+function Skills() {
     return (
         <div>
-            <Header position="NewestUpdate"/>
+            <Header position="Skills"/>
             <div>
             </div>
             <div className="selfDefinedBody">
-                This is Newest Update
+                This is Skills
             </div>
         </div>
     );
 }
 
-export default NewestUpdate;
+export default Skills;

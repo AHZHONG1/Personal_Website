@@ -1,11 +1,9 @@
-li a {
-    color: white !important;
-}
-
-li a:hover {
-    color: yellow !important;
-}
-
-.navbar {
+.row {
     height: 50px;
+}
+
+.adjustNamePosition {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
