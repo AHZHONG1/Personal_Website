@@ -1,0 +1,11 @@
+li a {
+    color: white !important;
+}
+
+li a:hover {
+    color: yellow !important;
+}
+
+.navbar {
+    height: 50px;
+}
