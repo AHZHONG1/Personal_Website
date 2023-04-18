@@ -1,7 +1,7 @@
 function ContactUs() {
     return (
         <div>
-            This is Contact us
+            This is Contact us.
         </div>
     );
 }
