@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import './Home.css'
-import MainImg from "../../public/images/main_image.jpg"
+import MainImg from "/images/main_image.jpg"
 
 function Home() {
     return (
