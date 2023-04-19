@@ -3,3 +3,8 @@
     width: 100%;
     height: calc(100vh - 50px);
 }
+
+.selfDefinedCurrentSection {
+    border: 1px solid black;
+    background-color: rgb(19, 193, 227);
+}
